@@ -12,6 +12,26 @@
 - Claude Codeにルールとして追加
 - 特定のプロジェクトニーズに合わせてカスタマイズ
 
+## 技術方針
+
+このプロジェクトは**現代的な開発プラクティス**を前提としています：
+
+### 基本原則
+- **最新の言語仕様**: 各言語の現行標準を採用（ES2022+、Python 3.10+、Go 1.20+、Rust 2021 Edition等）
+- **型安全性**: 静的型付けまたは型ヒントの活用（TypeScript、Python type hints、Go、Rust等）
+- **モダンなツールチェーン**: 高速で効率的なビルド・開発ツールの使用
+- **厳格な品質基準**: 各言語のリンター、フォーマッター、静的解析ツールの活用
+
+### 言語別の現代的アプローチ
+- **JavaScript/TypeScript**: ESモジュール、async/await、最新のフレームワーク
+- **Python**: type hints、Poetry/PDM、async/await、dataclasses
+- **Go**: Go modules、generics、error wrapping
+- **Rust**: 2021 Edition、async/await、最新のクレート
+- **Java**: Java 17+、Records、Pattern Matching、モジュールシステム
+- **C#**: .NET 6+、nullable reference types、record types
+
+提供するスニペットとテンプレートは、2024年以降の新規プロジェクトに最適化されています。レガシーシステムへの対応が必要な場合は、個別にカスタマイズしてください。
+
 ## プロジェクト構造
 
 ```
