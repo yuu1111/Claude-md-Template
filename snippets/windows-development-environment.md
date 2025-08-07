@@ -21,10 +21,8 @@ Windows環境での開発時に必要な設定と注意事項をまとめたス�
 - **ビルドツール**: Unix固有コマンドの代わりにクロスプラットフォームツール（rimraf、cross-env等）を使用
 
 ### Git設定（必須）
-```bash
-git config core.autocrlf true      # 改行コード自動変換
-git config core.quotepath false    # 日本語ファイル名対応
-```
+    git config core.autocrlf true      # 改行コード自動変換
+    git config core.quotepath false    # 日本語ファイル名対応
 
 ### よくある問題への対処
 

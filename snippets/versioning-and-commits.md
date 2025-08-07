@@ -25,13 +25,11 @@
 ### セマンティックコミット (Conventional Commits)
 コミットメッセージは以下の形式に従います：
 
-```
-<type>(<scope>): <subject>
-
-[optional body]
-
-[optional footer]
-```
+    <type>(<scope>): <subject>
+    
+    [optional body]
+    
+    [optional footer]
 
 **よく使うタイプ**:
 - `feat`: 新機能追加（MINOR up）
@@ -46,11 +44,9 @@
 **Breaking Change**: タイプの後に`!`を付ける（例: `feat!:`）またはフッターに`BREAKING CHANGE:`を含める → MAJORバージョンup
 
 **例**:
-```
-feat(auth): OAuth2.0認証を追加
-fix(api): レスポンスヘッダーの文字化けを修正
-docs: READMEにインストール手順を追加
-```
+- feat(auth): OAuth2.0認証を追加
+- fix(api): レスポンスヘッダーの文字化けを修正
+- docs: READMEにインストール手順を追加
 ```
 
 ## カスタマイズポイント
